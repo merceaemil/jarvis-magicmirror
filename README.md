@@ -1,22 +1,41 @@
-<!---
-IMPORTANT
-=========
-This README.md is displayed in the WebStore as well as within Jarvis app
-Please do not change the structure of this file
-Fill-in Description, Usage & Author sections
-Make sure to rename the [en] folder into the language code your plugin is written in (ex: fr, es, de, it...)
-For multi-language plugin:
-- clone the language directory and translate commands/functions.sh
-- optionally write the Description / Usage sections in several languages
--->
 ## Description
-Description of your Plugin
+JARVIS PLUGIN that connects Jarvis with MagicMirror from http://magicmirror.builders.
+
+## INSTALLATION
+
+1. Install this plugin on Jarvis running the following command:
+```
+./jarvis.sh -p https://github.com/merceaemil/jarvis-magicmirror.git
+```
+2. When asked to configure MagicMirror url fill in the entire url. 
+```
+Magic mirror default url is http://localhost:8080/
+!!!!! IMPORTANT !!!! Last slash is important
+```
+3. Install MMM-Jarvis-Voice-Control on MagicMirror.
+
+4. Have fun
 
 ## Usage
+
+Keyword to send command to MagicMirror is "PLEASE"
 ```
-You: example of how to trigger the command
-Jarvis: output from Jarvis
+PLEASE [YOUR COMMAND]
+```
+
+## EXAMPLES
+
+```
+You: please start music
+Jarvis: Ok
+What happens: Jarvis will send a url request to MagicMirror with command "start music"
+```
+
+```
+You: please show camera
+Jarvis: Ok
+What happens: Jarvis will send a url request to MagicMirror with command "show camera"
 ```
 
 ## Author
-[your name](http://your.website)
+Mercea Emil(http://insightfeatures.ro)
