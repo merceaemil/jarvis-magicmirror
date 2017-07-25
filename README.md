@@ -1,7 +1,7 @@
 ## Description
 JARVIS PLUGIN that connects Jarvis with MagicMirror from http://magicmirror.builders.
 
-## INSTALLATION
+## Installation
 
 1. Install this plugin on Jarvis running the following command:
 ```
@@ -23,7 +23,7 @@ Keyword to send command to MagicMirror is "PLEASE"
 PLEASE [YOUR COMMAND]
 ```
 
-## EXAMPLES
+## Examples
 
 ```
 You: please start music
