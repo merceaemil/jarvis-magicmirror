@@ -1,0 +1,1 @@
+*PLEASE (*)*==say "Ok $(curl -G --silent --output /dev/null "${jv_pg_mm_url}VoiceCommand" --data-urlencode "command=(1)")"

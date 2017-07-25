@@ -1,0 +1,1 @@
+jv_pg_mm_url="http://localhost:8080/" # Magic Mirror Address

@@ -1,0 +1,1 @@
+curl -G --silent --output /dev/null "${jv_pg_mm_url}VoiceResponse" --data-urlencode "status=ended"
