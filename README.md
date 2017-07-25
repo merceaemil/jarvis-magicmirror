@@ -5,7 +5,7 @@ JARVIS PLUGIN that connects Jarvis with MagicMirror from http://magicmirror.buil
 
 1. Install this plugin on Jarvis running the following command:
 ```
-./jarvis.sh -p https://github.com/merceaemil/jarvis-magicmirror.git
+./jarvis.sh -p https://github.com/merceaemil/jarvis-magicmirror
 ```
 2. When asked to configure MagicMirror url fill in the entire url. 
 ```
